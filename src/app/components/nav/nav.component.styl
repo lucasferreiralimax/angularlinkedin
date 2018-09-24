@@ -1,0 +1,21 @@
+@import '../../../stylus/base/**'
+
+.nav__item
+  text-decoration none
+  color #fff
+  &:hover,
+  &:focus,
+  &:active
+    .active-item
+      fill #fff
+  .active-item
+    fill color1
+    transition .3s all
+  .profile
+    border 1px solid #fff
+    border-radius 100%
+    transition .3s all
+    &:hover
+      box-shadow 0 0 0 1px color1, 0 0 10px 1px #fff
+.nav__icon
+  fill #fff
