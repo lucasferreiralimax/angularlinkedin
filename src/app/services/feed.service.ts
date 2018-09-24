@@ -20,7 +20,7 @@ export class FeedService {
       "content": "Linkedin eu não quero criar uma rede social ok? Não me censure!",
       "likes": 1,
       "photo": "https://media.licdn.com/dms/image/C4D03AQHhDJmVc7vBvw/profile-displayphoto-shrink_100_100/0?e=1543449600&v=beta&t=EU-mFAANMKtiSQzrktDe9drWlc0rFd_TRpaz5D3nnlA"
-    }
+    },
     {
       "name": "Mark Zuckerberg",
       "content": "Valorize quem constrói, pois quem destrói não estuda e para atrasar tem muitos!",

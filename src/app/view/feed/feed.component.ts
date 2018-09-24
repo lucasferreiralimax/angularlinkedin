@@ -13,9 +13,6 @@ export class FeedComponent implements OnInit {
 
   feed = []
 
-  ngOnInit() {
-  }
-
   getFeed(): void {
     this.feedService.getFeed()
         .subscribe(feed => this.feed = feed)
