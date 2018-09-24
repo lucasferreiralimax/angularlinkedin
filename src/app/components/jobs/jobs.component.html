@@ -1,3 +1,9 @@
-<p>
-  jobs works!
-</p>
+<section class="jobs">
+  <article class="job" *ngFor="let job of jobs">
+    <h1>{{ job.title }}</h1>
+    <figure class="job__photo">
+      <img [src]="job.photo" [alt]="job.name" width="50">
+      <h2>{{ job.company }} • {{ job.city }}</h2>
+    </figure>
+  </article>
+</section>

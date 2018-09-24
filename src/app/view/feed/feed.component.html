@@ -1,2 +1,12 @@
 <app-aside></app-aside>
 <app-jobs></app-jobs>
+<section class="feed">
+  <article class="post" *ngFor="let post of feed">
+    <figure class="post__photo">
+      <img [src]="post.photo" [alt]="post.name" width="50">
+      <h1>{{ post.name }}</h1>
+    </figure>
+    <p>{{ post.content }}</p>
+    <p>{{ post.likes }} Likes</p>
+  </article>
+</section>
