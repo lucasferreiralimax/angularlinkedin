@@ -1,3 +1,13 @@
+@import '../../../stylus/base/**'
+
+.feed
+  display block
+  +tablet()
+    width 40%
+    padding 0 10px
+    margin-right 30%
+    float right
+    box-sizing border-box
 .post
   background #fff
   border 1px solid #ccc
@@ -9,3 +19,15 @@
     border-radius 100%
     float left
     margin-right 10px
+.advertising
+  background #ccc
+  color #fff
+  padding 10px
+  margin 10px
+  box-sizing border-box
+  +tablet()
+    width 30%
+    float right
+    position fixed
+    top 68px
+    right 0
