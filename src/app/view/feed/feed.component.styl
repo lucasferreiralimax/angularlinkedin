@@ -70,9 +70,16 @@
 .advertising
   background #ccc
   box-sizing border-box
+  border-radius 3px
   color #fff
   margin 0 10px
-  padding 2px
+  overflow hidden
+  &:hover
+    img
+      transform scale(1.3)
+  img
+    transition .5s all
+    display block
   +tablet()
     float right
     position fixed
