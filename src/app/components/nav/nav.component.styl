@@ -1,35 +1,48 @@
 @import '../../../stylus/base/**'
 
 .nav
-  display none
+  float right
   margin 0
   padding 0
-  float right
+  transform translateY(-15px)
+.nav__item
+  color #fff
+  display none
+  opacity .8
+  padding 9px 13px
+  text-align center
+  text-decoration none
+  transition .3s all
+  &:last-of-type
+    display inline-block
   +tablet()
     display inline-block
-.nav__item
-  text-decoration none
-  color #fff
-  display inline-block
-  padding 10px
-  transform translateY(-15px)
   &:hover,
   &:focus,
   &:active
+    opacity 1
+    box-shadow inset 0 -3px 0 #fff
+    .profile
+      box-shadow 0 0 0 1px color1, 0 0 10px 1px #fff
+    svg
+      transform scale(1.15)
     .active-item
       fill #fff
+  svg
+    margin-bottom 5px
   span
-    transform translate(5px, -5px)
-    display inline-block
+    display block
+    font-size .8em
   .active-item
     fill color1
     transition .3s all
   .profile
     border 1px solid #fff
     border-radius 100%
-    transition .3s all
+    margin-bottom 5px
     transform translateY(5px)
-    &:hover
-      box-shadow 0 0 0 1px color1, 0 0 10px 1px #fff
+    transition .3s all
 .nav__icon
+  display block
   fill #fff
+  transition .3s all
