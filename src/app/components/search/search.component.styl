@@ -18,16 +18,16 @@
   transition .3s all
   width 100px
   &:focus
-    width 200px
     padding-left 10px
     padding-right 40px
+    width 200px
     + .search__btn
-      pointer-events all
-      left auto
-      right 0
       background rgba(color2, .2)
-      opacity 1
       border-radius 0 6px 6px 0
+      left auto
+      opacity 1
+      pointer-events all
+      right 0
       svg
         fill color2
 .search__btn
@@ -41,6 +41,6 @@
   opacity .4
   outline none
   padding 5.5px
+  pointer-events none
   position absolute
   transition .3s all
-  pointer-events none

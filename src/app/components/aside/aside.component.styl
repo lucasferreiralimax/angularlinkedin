@@ -3,18 +3,19 @@
 .aside
   background #fff
   border 1px solid #ccc
-  margin 10px
+  border-radius 3px
   box-shadow 0 2px 5px rgba(0,0,0,.2)
+  margin 10px
   transition .3s all
   &:hover
     box-shadow 0 0 0 1px rgba(#fff,.5), 0 5px 10px rgba(0,0,0,.3)
   article
     border-bottom 1px solid #ccc
   +tablet()
-    width 30%
     float left
-    position fixed
     left 0
+    position fixed
+    width 30%
   +desktop()
     width 20%
 .profile
@@ -27,32 +28,32 @@
     font-weight normal
     margin-bottom 20px
 .profile__photo
-  width 100%
-  height 70px
   background url('https://media.licdn.com/dms/image/C4D16AQH5J_OXxRhh1A/profile-displaybackgroundimage-shrink_350_1400/0?e=1543449600&v=beta&t=OT3v2SKEai_gCnTR5cGjUXdWoF0C_uG1xlYgQhN0usY') center no-repeat
   background-size cover
-  margin 0
-  margin-bottom 40px
   box-sizing border-box
   display block
+  height 70px
+  margin 0
+  margin-bottom 40px
   position relative
+  width 100%
   &:hover
     img
       transform scale(1.2)
   img
-    border-radius 100%
     border 2px solid #fff
+    border-radius 100%
     box-shadow inset 0 1.5px 3px 0 rgba(0,0,0,.15), 0 1.5px 3px 0 rgba(0,0,0,.15)
-    position absolute
-    transition .3s all
-    top 50%
     left calc(50% - 30px)
+    position absolute
+    top 50%
+    transition .3s all
 .connections
   font-size .9em
   padding 20px
   h1
-    font-weight bold
     color #666
+    font-weight bold
     margin-bottom 10px
     span
       color color2
@@ -61,12 +62,12 @@
     color #333
     font-weight bold
 .premium
-  text-align center
-  padding 20px
-  font-size .8em
   cursor pointer
-  user-select none
+  font-size .8em
+  padding 20px
+  text-align center
   transition .3s all
+  user-select none
   &:hover
     background #c8b476 + 50
     p
@@ -79,16 +80,16 @@
     font-weight normal
     margin-bottom 10px
   p
-    font-weight bold
     display inline-block
+    font-weight bold
     position relative
     transition .3s all
     &:before
+      background linear-gradient(-135deg, #c8b476 50%, #b29a53 50%)
       content ''
       display block
-      width 10px
       height 10px
-      background linear-gradient(-135deg, #c8b476 50%, #b29a53 50%)
-      position absolute
       left -20px
+      position absolute
       transition .3s all
+      width 10px
