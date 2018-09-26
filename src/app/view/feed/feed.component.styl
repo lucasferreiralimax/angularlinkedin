@@ -11,14 +11,45 @@
 .post
   background #fff
   border 1px solid #ccc
-  padding 10px
+  padding 15px
   margin 10px
+  p
+    font-size .9em
+    line-height 1.3em
+    &.likes
+      color #666
+      font-size .8em
+      margin-top 15px
 .post__photo
   margin 0
+  h1
+    margin-bottom 5px
   img
     border-radius 100%
     float left
     margin-right 10px
+.actions
+  margin-top 10px
+  .btn
+    background transparent
+    border 0
+    color #666
+    padding 10px 0
+    margin 0 20px 0 0
+    transition .3s all
+    cursor pointer
+    outline none
+    &:hover,
+    &:focus
+      color color2
+      svg
+        fill color2
+    span
+      display inline-block
+      transform translateY(-5px)
+    svg
+      transition .3s all
+      fill #666
 .advertising
   background #ccc
   color #fff
