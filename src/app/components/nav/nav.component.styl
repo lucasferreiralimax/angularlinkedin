@@ -1,20 +1,48 @@
 @import '../../../stylus/base/**'
 
+.btn.menu
+  background transparent
+  border 0
+  cursor pointer
+  height 60px
+  outline none
+  position absolute
+  right 0
+  top 0
+  transition .3s all
+  width 60px
+  &:focus,
+  &:hover
+    transform rotate(90deg) translateY(20px)
+  svg
+    fill #fff
+
 .nav
-  float right
+  background color1
+  border-radius 0 0 6px 6px
+  box-shadow 0 1px 0 .5px rgba(#fff, .5), 0 6px 10px rgba(#000, .2)
+  display block
   margin 0
   padding 0
-  transform translateY(-15px)
+  position absolute
+  right 0
+  top 60px
+  +tablet()
+    border-radius 0
+    box-shadow none
+    display inline-block
+    float right
+    position relative
+    right 70px
+    top -15px
 .nav__item
   color #fff
-  display none
+  display block
   opacity .8
   padding 9px 13px
   text-align center
   text-decoration none
   transition .3s all
-  &:last-of-type
-    display inline-block
   +tablet()
     display inline-block
   &:hover,

@@ -9,6 +9,12 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
+  menu = false
+
+  showMenu() {
+    this.menu = !this.menu
+  }
+
   ngOnInit() {
   }
 
