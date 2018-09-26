@@ -32,7 +32,7 @@ export class FeedService {
       "content": "Como eu amo os brasileiros, sem eles acho que não teriamos nada de evolução!",
       "likes": 451231,
       "photo": "https://media.licdn.com/dms/image/C5603AQHv9IK9Ts0dFA/profile-displayphoto-shrink_800_800/0?e=1543449600&v=beta&t=1rOBA_CflNKl3nlcLUx_Eblu1kH0MSOfwk6F8399b-E"
-    }
+    },
     {
       "name": "Reid Hoffman",
       "content": "O Linkedin precisa entender o melhor ajudar e não censurar os desenvolvedores que estão construindo um futuro melhor.",
