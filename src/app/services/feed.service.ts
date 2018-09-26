@@ -47,6 +47,15 @@ export class FeedService {
     }
   ]
 
+  addFeed(text: string) {
+    this.feed.unshift({
+      "name": "Linus Torvalds",
+      "content": text,
+      "likes": 0,
+      "photo": "assets/linus.jpg"
+    })
+  }
+
   getFeed() {
     return of(this.feed)
   }

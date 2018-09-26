@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FeedComponent } from './feed.component';
 import { AsideComponent } from '../../components/aside/aside.component';
 import { JobsComponent } from '../../components/jobs/jobs.component';
+import { PostComponent } from '../../components/post/post.component';
 
 import { FeedRoutingModule } from './feed-routing.module';
 
@@ -15,7 +16,8 @@ import { FeedRoutingModule } from './feed-routing.module';
   declarations: [
     FeedComponent,
     AsideComponent,
-    JobsComponent
+    JobsComponent,
+    PostComponent
   ]
 })
 export class FeedModule { }
