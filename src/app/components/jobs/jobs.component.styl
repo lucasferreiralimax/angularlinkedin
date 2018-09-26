@@ -1,14 +1,27 @@
 @import '../../../stylus/base/**'
 
-.job
+.jobs
   background #fff
   border 1px solid #ccc
-  padding 10px
   margin 10px
   box-shadow 0 2px 5px rgba(0,0,0,.2)
   transition .3s all
   &:hover
     box-shadow 0 0 0 1px rgba(#fff,.5), 0 5px 10px rgba(0,0,0,.3)
+  .title
+    font-size .8em
+    font-weight normal
+    color #666
+    padding 15px
+    margin 0
+.job
+  padding 20px 15px
+  border-top 1px solid #eee
+  transition .3s all
+  cursor pointer
+  &:hover
+    padding 30px 15px
+    color color2
 .job__photo
   margin 0
   &:after
