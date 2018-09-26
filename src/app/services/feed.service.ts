@@ -35,7 +35,7 @@ export class FeedService {
     },
     {
       "name": "Reid Hoffman",
-      "content": "O Linkedin precisa entender o melhor ajudar e não censurar os desenvolvedores que estão construindo um futuro melhor.",
+      "content": "O Linkedin precisa entender melhor, ajudar e não censurar os desenvolvedores que estão construindo um futuro melhor.",
       "likes": 6,
       "photo": "https://media.licdn.com/dms/image/C5603AQGBG-pWCdQcIA/profile-displayphoto-shrink_800_800/0?e=1543449600&v=beta&t=vV4r2CKvtMHixxtT3WyQ7BTq_ZodP6aIvbOwXuM68FM"
     },
