@@ -5,7 +5,7 @@
   <article class="post" *ngFor="let post of feed, index as i" [attr.data-index]="i">
     <figure class="post__photo">
       <img [src]="post.photo" [alt]="post.name" width="50">
-      <h1>{{ post.name }} - {{ i }}</h1>
+      <h1>{{ post.name }}</h1>
     </figure>
     <p>{{ post.content }}</p>
     <p class="likes">{{ post.likes }} Likes</p>

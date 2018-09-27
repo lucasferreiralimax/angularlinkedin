@@ -1,9 +1,9 @@
-<button class="btn menu" [ngClass]="{active: menu}" type="button" name="button" (click)="showMenu()">
+<button class="btn menu" [ngClass]="{active: menu}" type="button" name="button" (click)="showMenu()" *ngIf="menuBtn">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 290 290" width="25">
     <path d="M0 220h70v70H0zM0 110h70v70H0zM0 0h70v70H0zM110 220h70v70h-70zM110 110h70v70h-70zM110 0h70v70h-70zM220 220h70v70h-70zM220 110h70v70h-70zM220 0h70v70h-70z"/>
   </svg>
 </button>
-<nav class="nav" [ngClass]="{active: menu}">
+<nav class="nav" [ngClass]="{active: menu, show: !menuBtn}">
   <a routerLink="feed" class="nav__item">
     <svg class="nav__icon" width="24" height="24" preserveAspectRatio="xMinYMin meet" class="nav-icon" xmlns="http://www.w3.org/2000/svg">
       <path d="M22 8.45l-9.15-6.19a1.5 1.5 0 0 0-1.69 0L2 8.45 3.06 10 4 9.37V19a1 1 0 0 0 1 1h5v-5h4v5h5a1 1 0 0 0 1-1V9.37l.94.63z" class="active-item" />

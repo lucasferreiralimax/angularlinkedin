@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -10,12 +10,29 @@ export class NavComponent implements OnInit {
   constructor() { }
 
   menu = false
+  menuBtn = true
 
   showMenu() {
     this.menu = !this.menu
   }
 
+  hiddenMenuBtn() {
+    if(window.innerWidth > 799) {
+      this.menuBtn = false
+    }
+  }
+
+  @HostListener('window:resize') onResize() {
+    if(window.innerWidth > 799) {
+      this.menuBtn = false
+    }
+    if(window.innerWidth < 800) {
+      this.menuBtn = true
+    }
+  }
+
   ngOnInit() {
+    this.hiddenMenuBtn()
   }
 
 }
