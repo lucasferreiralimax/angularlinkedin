@@ -11,7 +11,7 @@
   top 0
   transition .3s all
   width 60px
-  &:focus,
+  &.active,
   &:hover
     transform rotate(90deg) translateY(20px)
   svg
@@ -19,7 +19,7 @@
 
 .nav
   background color1
-  border-radius 0 0 6px 6px
+  border-radius 0 0 0 6px
   box-shadow 0 1px 0 .5px rgba(#fff, .5), 0 6px 10px rgba(#000, .2)
   display block
   margin 0
@@ -27,6 +27,10 @@
   position absolute
   right 0
   top 60px
+  transform translateX(100%)
+  transition .3s all
+  &.active
+    transform translateX(0)
   +tablet()
     border-radius 0
     box-shadow none
@@ -35,6 +39,9 @@
     position relative
     right 70px
     top -15px
+    transform translateY(-100%)
+    &.active
+      transform translateY(0)
 .nav__item
   color #fff
   display block
