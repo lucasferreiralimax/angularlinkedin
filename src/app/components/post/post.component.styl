@@ -11,54 +11,52 @@
   &:hover
     box-shadow 0 0 0 1px rgba(#fff,.5), 0 5px 10px rgba(0,0,0,.3)
   .counter
-    position: absolute
-    top: 10px
-    right: 10px
-    border-radius: 10px
-    background: green
-    color: #fff
-    padding: 4px
-    font-size: .7em
-    display: block
-    margin: 0
-    text-shadow: 0 2px 1px rgba(#000, .5)
-    box-shadow: 0 2px 5px rgba(#000, .5)
-    user-select: none
+    position absolute
+    top 10px
+    right 10px
+    border-radius 10px
+    background green
+    color #fff
+    padding 4px
+    font-size .7em
+    display block
+    margin 0
+    text-shadow 0 2px 1px rgba(#000, .5)
+    box-shadow 0 2px 5px rgba(#000, .5)
+    user-select none
     &.erro
-      background: #f00
-      box-shadow: 0 0 0 1px #fff, 0 2px 10px 5px rgba(#f00, .5)
+      background #f00
+      box-shadow 0 0 0 1px #fff, 0 2px 10px 5px rgba(#f00, .5)
 
 .post__input
-  box-shadow: inset 0 -4px #ccc
-  border: 0
-  box-sizing: border-box
-  color: color2
-  float: right
-  font-size: 1.3em
-  margin-left: 10px
-  min-height: 80px
-  outline: none
-  padding: 10px
-  width: 100%
-  max-width: 100%
-  min-width: 100%
+  box-shadow 0 1px #ccc
+  border 0
+  box-sizing border-box
+  color color2
+  float right
+  font-size 1.3em
+  margin-left 10px
+  min-height 80px
+  outline none
+  padding 10px
+  width 100%
+  max-width 100%
+  min-width 100%
   &.erro
-    box-shadow: inset 0 -4px #f00 + 100
-    background: linear-gradient(90deg, rgba(#f00, .2) 10%, #fff)
-    color: #f00
+    background linear-gradient(90deg, rgba(#f00, .2) 10%, #fff)
+    color #f00
   &:focus
-    box-shadow: inset 0 -4px green
-    background: linear-gradient(90deg, rgba(green, .2) 10%, #fff)
-    color: color1
+    background linear-gradient(90deg, rgba(green, .2) 10%, #fff)
+    color color1
     &.erro
-      background: linear-gradient(90deg, rgba(#f00, .2) 10%, #fff)
-      box-shadow: inset 0 -4px #f00
+      background linear-gradient(90deg, rgba(#f00, .2) 10%, #fff)
+      color #f00
 .post__options
   clear: both
-  list-style: none
-  margin: 0
-  padding: 10px 10px 0
-  width: 100%
+  list-style none
+  margin 0
+  padding 10px 10px 0
+  width 100%
   box-sizing border-box
   &:after
     clear: both
@@ -72,9 +70,14 @@
     outline none
     cursor pointer
     transition .3s all
+    animation 1.5s entry_content
+    &:active
+      transform scale(.95)
     &:hover
-      box-shadow inset 0 0 0 2px color2
+      background rgba(color2, .1)
+      box-shadow inset 0 0 0 1px color2
       color color2
+      border-color color2
       svg
         fill color2
     svg
@@ -85,17 +88,25 @@
       display inline-block
   .submit
     float right
+    .btn
+      background rgba(green, .1)
+      box-shadow inset 0 0 0 1px green
+      color green
+      border-color green
+      svg
+        fill green
+
   li
-    float: left
-    margin-bottom: 10px
-    margin-right: 10px
-    position: relative
+    float left
+    margin-bottom 10px
+    margin-right 10px
+    position relative
     &:last-of-type
       margin-right: 0
   +desktop()
-    display: flex
-    justify-content: space-around
+    display flex
+    justify-content space-around
     li
-      width: 100%
+      width 100%
       .btn
-        width: 100%
+        width 100%
