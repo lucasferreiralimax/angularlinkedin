@@ -8,7 +8,7 @@ export class JobsService {
 
   constructor() { }
 
-  jobs = [
+  private jobs = [
     {
       "title": "Desenvolvedor Front-end Angular",
       "company": "Linkedin",

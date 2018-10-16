@@ -1,5 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 
+import { UserService } from '../../services/user.service'
+
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
@@ -7,10 +9,11 @@ import { Component, OnInit, HostListener } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
-  constructor() { }
+  constructor(private userService: UserService) { }
 
   menu = false
   menuBtn = true
+  user = this.userService.user
 
   showMenu() {
     this.menu = !this.menu

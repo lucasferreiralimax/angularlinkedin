@@ -1,13 +1,13 @@
 <aside class="aside">
   <article class="profile">
     <figure class="profile__photo">
-      <img src="https://media.licdn.com/dms/image/C4D03AQHhDJmVc7vBvw/profile-displayphoto-shrink_100_100/0?e=1543449600&v=beta&t=EU-mFAANMKtiSQzrktDe9drWlc0rFd_TRpaz5D3nnlA" alt="Lucas Lima" width="60">
+      <img [src]="user.photo" [alt]="user.name" width="60">
     </figure>
-    <h1>Lucas Lima</h1>
-    <h2>Front-end at Open Source</h2>
+    <h1>{{ user.name }}</h1>
+    <h2>{{ user.job }}</h2>
   </article>
   <article class="connections">
-    <h1>Connections <span>99</span></h1>
+    <h1>Connections <span>{{ user.connections }}</span></h1>
     <p>Grow your network</p>
   </article>
   <article class="premium">

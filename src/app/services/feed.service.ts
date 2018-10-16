@@ -8,7 +8,7 @@ export class FeedService {
 
   constructor() { }
 
-  feed = [
+  private feed = [
     {
       "name": "Bill Gates",
       "content": "Os brasileiros são os melhores de todos os tempos",
@@ -21,7 +21,7 @@ export class FeedService {
       "content": "Linkedin eu não quero criar uma rede social ok? Não me censure!",
       "likes": 1,
       "like": false,
-      "photo": "https://media.licdn.com/dms/image/C4D03AQHhDJmVc7vBvw/profile-displayphoto-shrink_100_100/0?e=1543449600&v=beta&t=EU-mFAANMKtiSQzrktDe9drWlc0rFd_TRpaz5D3nnlA"
+      "photo": "https://media.licdn.com/dms/image/C4D03AQEjKZ0BTcUe-A/profile-displayphoto-shrink_200_200/0?e=1545264000&v=beta&t=umXKWez5jxfuTWnNMPjTvPd4-9SUYy8fBcx3YVUzWIw"
     },
     {
       "name": "Mark Zuckerberg",
