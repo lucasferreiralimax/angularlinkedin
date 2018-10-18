@@ -12,6 +12,10 @@ const routes: Routes = [
     loadChildren: './view/feed/feed.module#FeedModule'
   },
   {
+    path: 'in',
+    loadChildren: './view/profile/profile.module#ProfileModule'
+  },
+  {
     path: '**',
     loadChildren: './view/notfound/notfound.module#NotfoundModule'
   }
