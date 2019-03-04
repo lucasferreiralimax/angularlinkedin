@@ -13,13 +13,15 @@ export class JobsService {
       "title": "Desenvolvedor Front-end Angular",
       "company": "Linkedin",
       "city": "São Paulo, Brasil",
-      "photo": "https://media.licdn.com/dms/image/C4D0BAQFlLFOliANaJg/company-logo_200_200/0?e=1545868800&v=beta&t=wP4KTnfijmDQ-pJKy0v3zn9-8nbnw4dboSU7JkrOPlg"
+      "photo": "",
+      "link": "https://lucaslima-x.firebaseapp.com"
     },
     {
       "title": "Desenvolvedor Front-end Vue.js",
       "company": "Curriculo Grátis",
       "city": "São Paulo, Brasil",
-      "photo": "assets/curriculo.png"
+      "photo": "assets/curriculo.png",
+      "link": "http://curriculo-gratis.firebaseapp.com"
     }
   ]
 
