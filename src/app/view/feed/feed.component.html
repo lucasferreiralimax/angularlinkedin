@@ -4,7 +4,7 @@
   <app-jobs></app-jobs>
   <article class="post" *ngFor="let post of feed, index as i" [attr.data-index]="i">
     <figure class="post__photo">
-      <img [src]="post.photo" [alt]="post.name" width="50">
+      <img [src]="post.photo" [alt]="post.name" width="50" height="50">
       <h1>{{ post.name }}</h1>
     </figure>
     <p>{{ post.content }}</p>

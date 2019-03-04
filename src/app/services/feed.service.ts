@@ -14,42 +14,35 @@ export class FeedService {
       "content": "Os brasileiros são os melhores de todos os tempos",
       "likes": 67123456,
       "like": false,
-      "photo": "https://media.licdn.com/dms/image/C5603AQHv9IK9Ts0dFA/profile-displayphoto-shrink_800_800/0?e=1543449600&v=beta&t=1rOBA_CflNKl3nlcLUx_Eblu1kH0MSOfwk6F8399b-E"
+      "photo": "./assets/billgates.jpeg"
     },
     {
       "name": "Lucas Lima",
-      "content": "Linkedin eu não quero criar uma rede social ok? Não me censure!",
-      "likes": 1,
+      "content": "Linkedin eu não quero criar uma rede social ok?",
+      "likes": 2,
       "like": false,
-      "photo": "https://media.licdn.com/dms/image/C4D03AQEjKZ0BTcUe-A/profile-displayphoto-shrink_200_200/0?e=1545264000&v=beta&t=umXKWez5jxfuTWnNMPjTvPd4-9SUYy8fBcx3YVUzWIw"
+      "photo": "./assets/lucas.jpeg"
     },
     {
       "name": "Mark Zuckerberg",
       "content": "Valorize quem constrói, pois quem destrói não estuda e para atrasar tem muitos!",
-      "likes": 999000666,
+      "likes": 9,
       "like": false,
-      "photo": "https://media.licdn.com/dms/image/C4E0BAQFgxNeOUH5CZA/company-logo_200_200/0?e=1545868800&v=beta&t=2roycseuANXoEMP5AHPfF0eOoNmadPCrHw5wWOvVv2g"
+      "photo": "./assets/zuckerberg.jpg"
     },
     {
       "name": "Bill Gates",
       "content": "Como eu amo os brasileiros, sem eles acho que não teriamos nada de evolução!",
       "likes": 451231,
       "like": false,
-      "photo": "https://media.licdn.com/dms/image/C5603AQHv9IK9Ts0dFA/profile-displayphoto-shrink_800_800/0?e=1543449600&v=beta&t=1rOBA_CflNKl3nlcLUx_Eblu1kH0MSOfwk6F8399b-E"
-    },
-    {
-      "name": "Reid Hoffman",
-      "content": "O Linkedin precisa entender melhor, ajudar e não censurar os desenvolvedores que estão construindo um futuro melhor.",
-      "likes": 6,
-      "like": false,
-      "photo": "https://media.licdn.com/dms/image/C5603AQGBG-pWCdQcIA/profile-displayphoto-shrink_800_800/0?e=1543449600&v=beta&t=vV4r2CKvtMHixxtT3WyQ7BTq_ZodP6aIvbOwXuM68FM"
+      "photo": "./assets/billgates.jpeg"
     },
     {
       "name": "Mark Zuckerberg",
       "content": "Tenho que admitir, os brasileiros são brilhantes!",
-      "likes": 999666,
+      "likes": 6,
       "like": false,
-      "photo": "https://media.licdn.com/dms/image/C4E0BAQFgxNeOUH5CZA/company-logo_200_200/0?e=1545868800&v=beta&t=2roycseuANXoEMP5AHPfF0eOoNmadPCrHw5wWOvVv2g"
+      "photo": "./assets/zuckerberg.jpg"
     }
   ]
 
