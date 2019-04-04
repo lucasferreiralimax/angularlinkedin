@@ -1,5 +1,5 @@
 <aside class="aside">
-  <app-profile-user [user]="user"></app-profile-user>
+  <app-profile-user [user]="user" routerLink="/in/{{user.id}}"></app-profile-user>
   <article class="connections">
     <h1>Connections <span>{{ user.connections }}</span></h1>
     <p>Grow your network</p>
