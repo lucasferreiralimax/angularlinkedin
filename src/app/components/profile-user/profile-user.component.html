@@ -1,4 +1,4 @@
-<article class="profile">
+<article class="profile" [ngClass]="{'big': type}">
   <figure class="profile__photo">
     <img [src]="user.photo" [alt]="user.name" width="60">
   </figure>

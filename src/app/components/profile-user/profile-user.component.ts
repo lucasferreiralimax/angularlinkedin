@@ -8,6 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProfileUserComponent implements OnInit {
 
   @Input() user;
+  @Input() type;
 
   constructor() { }
 

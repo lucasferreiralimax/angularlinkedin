@@ -1,5 +1,18 @@
 .profile
   text-align center
+  &.big
+    h1
+      font-size 3em
+      margin-top 10px
+    .profile__photo
+      height 300px
+      border-radius 5px
+      margin-bottom 60px
+      img
+        width 150px
+        animation none
+        left calc(50% - 75px)
+        top 60%
   h1
     font-size 1.1em
     margin-bottom 10px
@@ -8,7 +21,7 @@
     font-weight normal
     margin-bottom 20px
 .profile__photo
-  background url('https://media.licdn.com/dms/image/C4E16AQEErtRK0eF39w/profile-displaybackgroundimage-shrink_350_1400/0?e=1543449600&v=beta&t=g2NokBwNGEeF36icwqDVXUUbRZ3H3KRt06Z7yHRPNOU') center no-repeat
+  background url('/assets/arte.jpg') center no-repeat
   background-size cover
   box-sizing border-box
   display block
