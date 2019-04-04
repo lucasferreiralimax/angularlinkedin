@@ -7,11 +7,13 @@ import { JobsComponent } from '../../components/jobs/jobs.component';
 import { PostComponent } from '../../components/post/post.component';
 
 import { FeedRoutingModule } from './feed-routing.module';
+import { ProfileUserModule } from '../../components/profile-user/profile-user.module'
 
 @NgModule({
   imports: [
     CommonModule,
-    FeedRoutingModule
+    FeedRoutingModule,
+    ProfileUserModule
   ],
   declarations: [
     FeedComponent,

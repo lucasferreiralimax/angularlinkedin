@@ -1,11 +1,5 @@
 <aside class="aside">
-  <article class="profile">
-    <figure class="profile__photo">
-      <img [src]="user.photo" [alt]="user.name" width="60">
-    </figure>
-    <h1>{{ user.name }}</h1>
-    <h2>{{ user.job }}</h2>
-  </article>
+  <app-profile-user [user]="user"></app-profile-user>
   <article class="connections">
     <h1>Connections <span>{{ user.connections }}</span></h1>
     <p>Grow your network</p>
