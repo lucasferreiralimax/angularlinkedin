@@ -8,6 +8,7 @@ export class UserService {
   constructor() { }
 
   user = {
+    "id": "lucaslimax",
     "name": "Lucas Lima",
     "job": "Front-end at Open Source",
     "connections": 99,

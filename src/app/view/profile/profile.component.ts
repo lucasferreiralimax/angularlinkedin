@@ -18,8 +18,11 @@ export class ProfileComponent implements OnInit {
   profile = ''
 
   ngOnInit() {
-    this.profile = this.activeRoute.snapshot.params.profile
-    console.log(this.activeRoute.snapshot.params.profile)
+    if(this.activeRoute.snapshot.params.profile) {
+      this.profile = this.activeRoute.snapshot.params.profile
+    } else {
+      this.router.navigate(['/not-found'])
+    }
   }
 
 }
