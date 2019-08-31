@@ -8,7 +8,7 @@ import { FeedService } from '../../services/feed.service'
   styleUrls: ['./post.component.styl']
 })
 export class PostComponent implements OnInit {
-  @ViewChild('post') post: ElementRef;
+  @ViewChild('post', {static: true}) post: ElementRef;
 
   value = ''
   erroSize = false
