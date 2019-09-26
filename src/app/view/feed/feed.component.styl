@@ -18,28 +18,31 @@
   border-radius 3px
   box-shadow 0 2px 5px rgba(0,0,0,.2)
   margin 10px
-  padding 15px 15px 0
+  padding 15px 15px 5px
   transition .3s all
   &:hover
-    box-shadow 0 0 0 1px rgba(#fff,.5), 0 5px 10px rgba(0,0,0,.3)
     .post__photo
       color color2
-      img
-        box-shadow 0 0 0 1px rgba(#fff,.5), 0 5px 10px rgba(0,0,0,.3)
   p
     font-size .9em
     line-height 1.3em
     word-break break-all
+    clear both
     &.likes
       clear both
       color color2
       display block
       font-size .8em
+      margin 10px 0
 .post__photo
   margin 0
   h1
+    font-size: 14px
     margin-bottom 5px
     transition .3s all
+  span
+    font-size 12px
+    color rgba(0, 0, 0, 0.6)
   img
     border-radius 100%
     float left
@@ -47,7 +50,7 @@
     transition .3s all
 .actions
   border-top 1px solid #ccc
-  margin 10px 0 13px
+  margin 10px 0 0
   padding-top 10px
   .btn
     background transparent
@@ -57,13 +60,14 @@
     cursor pointer
     margin-right 10px
     outline none
-    padding 8px 10px
+    padding 6px 10px
     transition .3s all
-    &:hover,
+    &:hover
+      color #222
+      svg
+        fill #222
     &.active
-      background rgba(color2, .1)
       color color2
-      box-shadow 0 0 0 1px rgba(color2, .2)
       svg
         fill color2
     &:last-of-type
