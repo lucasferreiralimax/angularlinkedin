@@ -9,15 +9,15 @@ const routes: Routes = [
   },
   {
     path: 'feed',
-    loadChildren: './view/feed/feed.module#FeedModule'
+    loadChildren: () => import('./view/feed/feed.module').then(m => m.FeedModule)
   },
   {
     path: 'in',
-    loadChildren: './view/profile/profile.module#ProfileModule'
+    loadChildren: () => import('./view/profile/profile.module').then(m => m.ProfileModule)
   },
   {
     path: '**',
-    loadChildren: './view/notfound/notfound.module#NotfoundModule'
+    loadChildren: () => import('./view/notfound/notfound.module').then(m => m.NotfoundModule)
   }
 ];
 
