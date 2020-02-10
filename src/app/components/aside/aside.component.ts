@@ -6,7 +6,7 @@ import { UserService } from '../../services/user.service'
   selector: 'app-aside',
   templateUrl: './aside.component.html',
   styleUrls: ['./aside.component.styl'],
-  encapsulation: ViewEncapsulation.Native
+  encapsulation: ViewEncapsulation.None
 })
 export class AsideComponent implements OnInit {
 
