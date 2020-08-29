@@ -15,19 +15,35 @@ export class UserService {
     "location": "Pombal, Paraíba, Brasil",
     "photo": "./assets/lucas.jpeg",
     "about": `
-Experiente programador e designer de interfaces com mais de 8 anos de experiência
-Especialista no desenvolvimento de soluções e design para projetos web
-Trazendo sempre inovações com qualidade e arte
+Desenvolvedor Front-end e Designer
+Especialista em criar soluções tecnológicas nos padrões Web
 
-Venho trabalhando e estudando os padrões e tecnologias web, como CSS, HTML, Javascript
-Atuando com os framework's Angular e Vue.js
-Usando Stylus e Sass como preprocessadores CSS e Pug.js como template engine HTML
-Utilizo o Git como ferramenta de versionamento de código
+Desenvolvendo sempre soluções com as seguintes tecnologias: CSS, HTML, JavaScript
+Webpack, Gulp.js, Grunt.js, ParcelJS, Cypress.io, jQuery, Quasar.js, Nuxt.js, Typescript, ES6
+React.js e os Framework Angular e Vue.js
 
-Focando meu desenvolvimento na melhoria da informação com performance e qualidade
-Fazendo pesquisas, testes de usabilidade e conceitos de inovação tecnológica
-Melhorando e trazendo resultados positivos dentro dos projetos que ajudo e desenvolvo
+Utilizo o Git como versionador de código e o github, bitbucket, gitlab
+O pré-processador Stylus para trabalhar o CSS, também trabalho com Less e Sass
+Buscando sempre desenvolver e escrever um HTML semântico em sua última versão
+Utilizando o máximo que a linguagem oferecer, também utilizo o Pug.js como template
 
-Também desenvolvo arte urbana e um trabalho poético, com diversas intervenções artísticas levando uma mensagem de amor e arte por todos os lugares que eu tenho o prazer de passar`
+Meu foco é a melhoria da informação com performance trazendo qualidade e inovação
+Criando testes End-to-End usando Cypress.io, gerando resultados positivos nos projetos
+Fazendo pesquisas e testes de usabilidade, melhorando a experiência com animações em CSS
+
+Mantenho um Web App Open Source que gera um simples currículo online ou offline
+Usando as seguintes tecnologias: Vue.js, Stylus, Pug.js
+Firebase para hospedar nos servidores do Google
+Também uso Heroku CLI para hospedar nos servidores Heroku
+Seguindo os padrões PWA (Progressive Web App) e W3C (World Wide Web Consortium)
+
+Link do projeto: curriculo-gratis.web.app
+
+Desenvolvo minhas habilidades artísticas dentro e fora da tecnologia
+Escrevendo poesia e também fazendo artes visuais (arte urbana)
+
+Criando intervenções por onde passo nas periferias e vias urbanas
+Levando uma mensagem de amor com bastante arte pra quem ama
+Buscando novas perspectivas para um mundo melhor toda semana`
   }
 }

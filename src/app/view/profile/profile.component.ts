@@ -20,6 +20,11 @@ export class ProfileComponent implements OnInit {
 
   profile = ''
   user = this.userService.user
+  showAbout = false
+
+  moreAbout() {
+    this.showAbout = !this.showAbout
+  }
 
   ngOnInit() {
     if(this.activeRoute.snapshot.params.profile == this.user.id) {

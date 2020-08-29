@@ -2,6 +2,9 @@
   <app-profile-user [user]="user" type="big"></app-profile-user>
   <section class="about">
     <h2>Sobre</h2>
-    {{ user.about }}
+    <pre [ngClass]="{ show: showAbout }">
+      {{ user.about }}
+    </pre>
+    <button type="button" (click)="moreAbout()">{{ showAbout ? 'visualizar menos' : 'visualizar mais' }}</button>
   </section>
 </section>

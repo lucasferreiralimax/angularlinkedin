@@ -8,7 +8,18 @@
   white-space pre-wrap
   line-height: 20px
   h2
-    color rgba(0,0,0,.9)
     font-size 20px
-    font-weight 400
-    line-height 1.4
+    line-height 1.33333
+    font-weight 600
+    color rgba(0,0,0,.9)
+  pre
+    height 30px
+    white-space nowrap
+    overflow hidden
+    text-overflow ellipsis
+    &.show
+      height auto
+      white-space break-spaces
+      overflow initial
+  button
+    cursor pointer
