@@ -14,14 +14,14 @@ export class JobsService {
       "company": "Linkedin",
       "city": "São Paulo, Brasil",
       "photo": "",
-      "link": "https://lucaslima-x.firebaseapp.com"
+      "link": "https://lucas-x.web.app"
     },
     {
       "title": "Desenvolvedor Front-end Vue.js",
       "company": "Curriculo Grátis",
       "city": "São Paulo, Brasil",
       "photo": "assets/curriculo.png",
-      "link": "http://curriculo-gratis.firebaseapp.com"
+      "link": "http://curriculo-gratis.web.app"
     }
   ]
 
