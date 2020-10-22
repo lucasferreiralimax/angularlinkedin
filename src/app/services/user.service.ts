@@ -37,7 +37,7 @@ Firebase para hospedar nos servidores do Google
 Também uso Heroku CLI para hospedar nos servidores Heroku
 Seguindo os padrões PWA (Progressive Web App) e W3C (World Wide Web Consortium)
 
-Link do projeto: curriculo-gratis.web.app
+Link do projeto: criar-curriculo.web.app
 
 Desenvolvo minhas habilidades artísticas dentro e fora da tecnologia
 Escrevendo poesia e também fazendo artes visuais (arte urbana)

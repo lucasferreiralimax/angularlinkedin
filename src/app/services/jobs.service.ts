@@ -12,16 +12,16 @@ export class JobsService {
     {
       "title": "Desenvolvedor Front-end Angular",
       "company": "Linkedin",
-      "city": "São Paulo, Brasil",
+      "city": "Paraíba, Brasil",
       "photo": "",
-      "link": "https://lucas-x.web.app"
+      "link": "https://lucasferreiralimax-dev.web.app"
     },
     {
       "title": "Desenvolvedor Front-end Vue.js",
       "company": "Curriculo Grátis",
-      "city": "São Paulo, Brasil",
+      "city": "Paraíba, Brasil",
       "photo": "assets/curriculo.png",
-      "link": "http://curriculo-gratis.web.app"
+      "link": "http://criar-curriculo.web.app"
     }
   ]
 

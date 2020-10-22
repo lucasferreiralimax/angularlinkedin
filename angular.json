@@ -134,5 +134,8 @@
       }
     }
   },
-  "defaultProject": "angularlinkedin"
+  "defaultProject": "angularlinkedin",
+  "cli": {
+    "analytics": "23e33c1c-e6b8-4566-b747-b2cb3083cf41"
+  }
 }
