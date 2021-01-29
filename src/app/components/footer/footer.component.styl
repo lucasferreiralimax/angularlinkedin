@@ -15,7 +15,13 @@
     align-items center
     justify-content center
     transition .3s color
+    flex-direction column
+    +mobile()
+      flex-direction row
     &:hover
       color color2 + 50
     .icon
-      margin 0 10px
+      margin 10px 0
+      min-width 48px
+      +mobile()
+        margin 0 10px
