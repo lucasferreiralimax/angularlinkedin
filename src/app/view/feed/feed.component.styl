@@ -1,16 +1,26 @@
 @import '../../../stylus/base/**'
 
+app-aside
+  padding 10px
+  display flex
+  +tablet()
+    width 25%
+    min-width 220px
+    position sticky
+    top 60px
+
++tablet()
+  .container
+    max-width 1300px
+    margin 0 auto
+    display flex
+    align-items flex-start
+
 .feed
   display block
   animation 1.5s entry_content
   +tablet()
-    box-sizing border-box
-    float right
-    margin-right 20%
-    padding 0 10px
     width 50%
-  +desktop()
-    margin-right 30%
 .post
   animation 1.5s entry_content
   background #fff
@@ -26,7 +36,7 @@
   p
     font-size .9em
     line-height 1.3em
-    word-break break-all
+    word-break break-word
     clear both
     &.likes
       clear both
@@ -93,10 +103,7 @@
     display block
     transition .5s all
   +tablet()
-    float right
-    position fixed
-    right 0
-    top 68px
-    width 20%
-  +desktop()
-    width 30%
+    width 25%
+    display flex
+    position sticky
+    top 70px
